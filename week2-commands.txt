@@ -1,0 +1,35 @@
+NETWORKWALKS — WEEK 2 COMMANDS
+================================
+
+FOOTPRINTING / RECONNAISSANCE
+1. WHOIS
+   whois networkwalks.com
+
+2. WhatWeb
+   whatweb networkwalks.com
+
+3. DNS resolution
+   nslookup networkwalks.com
+
+4. HTTP response headers
+   curl -I https://networkwalks.com
+
+5. WAF detection
+   wafw00f networkwalks.com
+
+6. DNS enumeration
+   dnsrecon -d networkwalks.com
+
+NETWORK SCANNING / ZENMAP
+-------------------------
+The Zenmap evidence was captured from the graphical Nmap interface.
+
+Observed:
+- scanme.nmap.org resolved to 45.33.32.156 in the supplied evidence.
+- The Intense Scan showed TCP ports 80, 443, 31337 and 9929 open.
+- A separate Quick Scan / topology view was captured for the local lab target 10.0.0.2.
+
+NOTE
+----
+These commands and scans were performed as part of the assigned cybersecurity training/lab work.
+Only scan systems for which you have authorization or that are explicitly provided as training targets.
