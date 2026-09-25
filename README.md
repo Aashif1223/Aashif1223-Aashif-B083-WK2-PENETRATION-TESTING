@@ -260,7 +260,7 @@ NetworkWalks Cybersecurity Program --- Batch B083
 
 ------------------------------------------------------------------------
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This repository is for **educational cybersecurity training and
 authorized lab work**. Do not use the commands, techniques or scanning
